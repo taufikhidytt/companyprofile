@@ -1,0 +1,76 @@
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  background-image: url(../img/kelly-sikkema-6ztB_TQjjsw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.container hr {
+  width: 300px;
+  border-top: 4px solid grey;
+}
+
+.container img {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.about {
+  background: linear-gradient(grey, white);
+  color: white;
+  margin-top: 0;
+}
+
+.portfolio {
+  /* background-image: url('../img/juri-noga-1092743-unsplash.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+
+}
+
+.contact {
+  /* background-image: url('../img/205799f717b9197.jpg'),url('../img/205799f717b9197.jpg'); */
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+section {
+  min-height: 600px;
+}
+
+.contact {
+  min-height: 800px;
+}
+
+.footer {
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
